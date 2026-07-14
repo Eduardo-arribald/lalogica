@@ -6,4 +6,4 @@ app = create_app()
 
 
 if __name__ == '__main__':
-    app.run(debug = True)   #Initialize create_app function. This let us rerun the app without manual rerun
+    app.run()   #Initialize create_app function. This let us rerun the app without manual rerun
