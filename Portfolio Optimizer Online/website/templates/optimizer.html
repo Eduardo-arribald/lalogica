@@ -1,0 +1,39 @@
+{% extends "base.html" %} 
+
+{% block title %}Optimizer{% endblock %}
+
+{% block content %}
+
+<h1>Place the stock you want to invest on and see the optimal combination of your assets!</h1>
+
+<form method="POST">
+    <h3 align="center">Investment assets</h3>
+    <div class="form-group">
+        <label for="Asset1">Asset 1</label>
+        <input type="asset" class="form-control" id="Asset1" name="Asset1" placeholder="Enter asset">
+    </div>
+
+    <div class="form-group">
+        <label for="Asset2">Asset 2</label>
+        <input type="asset" class="form-control" id="Asset2" name="Asset2" placeholder="Enter asset2">
+    </div>
+
+        <div class="form-group">
+        <label for="Asset3">Asset 3</label>
+        <input type="asset" class="form-control" id="Asset3" name="Asset3" placeholder="Enter asset3">
+    </div>
+
+    <div class="form-group">
+        <label for="Amount">Investment amount</label>
+        <input type="asset" class="form-control" id="Amount" name="Amount" placeholder="Investment amount">
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+
+</form>
+
+
+
+{% endblock %}
